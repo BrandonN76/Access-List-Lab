@@ -95,7 +95,7 @@ The goal of the lab is to simulate a small business network with multiple VLANs 
 - Deny traffic from:
   - 100 192.169.10.0/24 to 192.168.40.
 
-Attempting to ping Staff from HR on the first command and then pinging IT from HR on the second command:
+(Attempting to ping Staff from HR on the first command and then pinging IT from HR on the second command)
 <img src="https://i.imgur.com/sQVU43Q.png">
 
 **Overview**
