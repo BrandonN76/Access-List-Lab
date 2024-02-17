@@ -95,3 +95,8 @@ The goal of the lab is to simulate a small business network with multiple VLANs 
 - Deny traffic from:
   - 100 192.169.10.0/24 to 192.168.40.
 
+Attempting to ping Staff from HR on the first command and then pinging IT from HR on the second command:
+<img src="https://i.imgur.com/sQVU43Q.png">
+
+**Overview**
+In this lab, I simulated a small business network featuring a single router, two switches, each connected to eight computers, and two printers. The network was segmented into six VLANs to organize departments efficiently. To enhance security and control communication between departments, I implemented an Access Control List (ACL). Notably, I configured the ACL to restrict communication for VLAN 40 (Staff) — the only department unable to freely communicate with others.A noteworthy aspect of the lab involved fine-tuning the ACL to specifically allow Staff computers to communicate solely with VLAN 50 (IT) and VLAN 60 (Printers), showcasing the efficacy of the access control measures. This deliberate restriction exemplifies how ACLs can be tailored to enforce communication policies within a network, contributing to a more secure and organized business environment.
